@@ -30,10 +30,7 @@ export default function Navbar() {
     >
       <nav className="container-x flex h-16 items-center justify-between md:h-[4.5rem]">
         <a href="#top" className="group flex items-center gap-2.5">
-          <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-[var(--color-gold-bright)] to-[var(--color-gold-deep)] font-[family-name:var(--font-display)] text-sm font-bold text-[#1a1204]">
-            K
-          </span>
-          <span className="font-[family-name:var(--font-display)] text-sm font-semibold tracking-tight text-[var(--color-snow)]">
+          <span className="font-[family-name:var(--font-display)] text-base font-semibold tracking-tight text-[var(--color-snow)]">
             Kaushil<span className="text-[var(--color-gold)]">.</span>
           </span>
         </a>

@@ -14,9 +14,6 @@ export default function Footer() {
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
           <div>
             <a href="#top" className="flex items-center gap-2.5">
-              <span className="grid h-8 w-8 place-items-center rounded-lg bg-gradient-to-br from-[var(--color-gold-bright)] to-[var(--color-gold-deep)] font-[family-name:var(--font-display)] text-sm font-bold text-[#1a1204]">
-                K
-              </span>
               <span className="font-[family-name:var(--font-display)] text-base font-semibold text-[var(--color-snow)]">
                 {CONTACT.name}
               </span>
