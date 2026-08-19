@@ -37,6 +37,7 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
   }
 
   body {
@@ -44,6 +45,8 @@
     color: var(--color-mist);
     font-family: var(--font-sans);
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
   }
 
   ::selection {
