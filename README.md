@@ -40,7 +40,7 @@ npm run preview
 
 The hero shows a monogram placeholder until you drop in a photo.
 
-1. Save your headshot as **`public/profile.jpg`** (portrait / 4:5 works best).
+1. Save your headshot as **`public/profile.png`** (portrait / 4:5 works best).
 2. That's it — the hero picks it up automatically.
 
 ---
@@ -78,7 +78,7 @@ Every later `git push` to `main` redeploys automatically.
 public/
   images/            # optimized WebP screenshots, grouped by project
   favicon.svg
-  profile.jpg        # ← add your photo here
+  profile.png        # ← add your photo here
 src/
   components/        # Navbar, Hero, Work, ProjectModal, About, Stack, Process, Contact, Footer …
   data/

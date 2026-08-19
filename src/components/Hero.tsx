@@ -14,7 +14,7 @@ function ProfilePhoto() {
       <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.75rem] border border-[var(--color-line-2)] bg-[var(--color-surface)]">
         {ok ? (
           <img
-            src={img('profile.jpg')}
+            src={img('profile.png')}
             alt="Kaushil Prajapati"
             onError={() => setOk(false)}
             className="h-full w-full object-cover"
@@ -23,7 +23,7 @@ function ProfilePhoto() {
           <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-gradient-to-br from-[var(--color-surface-2)] to-[var(--color-ink)]">
             <span className="font-[family-name:var(--font-display)] text-6xl font-bold text-gradient-gold">KP</span>
             <span className="px-6 text-center text-xs text-[var(--color-fog)]">
-              Add your photo at <code className="text-[var(--color-gold)]">public/profile.jpg</code>
+              Add your photo at <code className="text-[var(--color-gold)]">public/profile.png</code>
             </span>
           </div>
         )}
