@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.local
+
+# ---------------------------------------------------------------------------
+# Source design assets (kept out of the repo — they are optimised into
+# public/images/ during setup and served from there). Delete these lines if
+# you'd rather commit the originals too.
+# ---------------------------------------------------------------------------
+/*.png
+/*.pdf
+/Company_Portfolio.md
